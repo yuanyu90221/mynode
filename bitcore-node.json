@@ -1,0 +1,17 @@
+{
+  "network": "livenet",
+  "port": 3001,
+  "services": [
+    "bitcoind",
+    "insight-api",
+    "web"
+  ],
+  "servicesConfig": {
+    "bitcoind": {
+      "spawn": {
+        "datadir": "./data",
+        "exec": "/Users/yuanyu90221/.nvm/versions/node/v8.6.0/lib/node_modules/bitcore-node/bin/bitcoind"
+      }
+    }
+  }
+}
