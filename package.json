@@ -5,7 +5,7 @@
   "readme": "README.md",
   "dependencies": {
     "bitcore-lib": "^v0.13.19",
-    "bitcore-node": "^10.5.1",
+    "bitcore-node": "^11.5.2",
     "insight-api": "^0.4.3"
   }
 }
